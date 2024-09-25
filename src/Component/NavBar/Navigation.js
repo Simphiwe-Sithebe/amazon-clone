@@ -7,8 +7,12 @@ class NavBar extends Component {
     }
     state = {  }
     render() { 
-        return (  );
+        return ( 
+            <div>
+                NavBar
+            </div>
+         );
     }
 }
  
-export default ;
+export default NavBar;
