@@ -1,4 +1,5 @@
 import './App.css';
+import MainPage from './Component/HomePage/MainPage';
 import NavBar from './Component/NavBar/Navigation';
 
 
