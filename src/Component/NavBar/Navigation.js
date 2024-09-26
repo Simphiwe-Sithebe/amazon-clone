@@ -34,14 +34,16 @@ class NavBar extends Component {
                     </div>
                 </div>
                 <div className='navbar_text navbar_signin'>
-                    <div style={{fontSize: "14px"}}>Hello, Sign In</div>
-                    <div style={{fontWeight: "bold"}}>Accounts & Lists</div>
-
+                    <div className='navbar_hello' style={{fontSize: "14px"}}>Hello, Sign In</div>
+                </div>
+                <div className='navbar_accounts'>
+                    <div style={{fontSize: "14px"}}>Accounts</div> 
+                    <div style={{fontWeight: "bold"}}>& Lists</div>
                 </div>
                 <div className='navbar_returns'>
                     <div style={{fontSize: "14px"}}>Returns </div>
                     <div style={{fontWeight: "bold"}}>& Orders</div>
-                    </div>
+                </div>
                 <div className='navbar_text navbar_cart'>
                     <div src='' className='cart_image'></div>
                     <div className='cart_item'>0</div>
@@ -49,16 +51,19 @@ class NavBar extends Component {
                 </div>
             </div>
                 <div className='navbar_footer'>
+                    <div className='navbar_footer_text_container'>
                     <div className='navbar_footer_text'>Best Seller</div>
-                    <div className='navbar_footer_text'>Mobile</div>
-                    <div className='navbar_footer_text'>Amazon Pay</div>
-                    <div className='navbar_footer_text'>Fashion</div>
-                    <div className='navbar_footer_text'>Electronics</div>
-                    <div className='navbar_footer_text'>Prime</div>
-                    <div className='navbar_footer_text'>New Release</div>
-                    <div className='navbar_footer_text'>Customer Service</div>
-                    <div className='navbar_footer_text'>Computers</div>
-                    <div className='navbar_footer_text'>Home & Kitchen</div>
+                        <div className='navbar_footer_text'>Mobile</div>
+                        <div className='navbar_footer_text'>Amazon Pay</div>
+                        <div className='navbar_footer_text'>Fashion</div>
+                        <div className='navbar_footer_text'>Electronics</div>
+                        <div className='navbar_footer_text'>Prime</div>
+                        <div className='navbar_footer_text'>New Release</div>
+                        <div className='navbar_footer_text'>Customer Service</div>
+                        <div className='navbar_footer_text'>Computers</div>
+                        <div className='navbar_footer_text'>Home & Kitchen</div>
+                    </div>
+                    <div className='navbar_image'></div>
                 </div> 
             </div>
         );

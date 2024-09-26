@@ -4,11 +4,13 @@
     height: 70px;
     background-color: #131a22;
     display: flex;
+    justify-content: space-around;
 }
 .navbar_logo{
     background: url('https://ik.imagekit.io/clone1010/amazon-image/sprite_350x.png?updatedAt=1727253488407') no-repeat -9px -50px;
 	width: 98px;
     height: 35px;
+    margin-left: 10px;
     margin: 16px;
     margin-top: 20px;
 }
@@ -61,16 +63,23 @@
 
 }
 .navbar_signin{
-   width: 130px;
-   margin-top: 10px;
-   margin-left: 50px;
-
+    width: 65px;
+    text-align: center;
+}
+.navbar_hello {
+    margin-top: 10px;
+}
+.navbar_accounts {
+    margin-top: 10px;
+    color: white;
+    text-align: center;
 }
 .navbar_returns{
     width: 80px;
     margin-top: 10px;
    margin-left: 10px;
    color: white;
+   text-align: center;
 }
 .navbar_cart{
     display: flex;
@@ -101,13 +110,26 @@
 }
 .navbar_footer{
     width: 100vw;
-    height: 30px;
+    height: 36px;
     background-color: #22303E;
     color: white;
     display: flex;
+}
+.navbar_footer_text_container {
+    display: flex;
+    width: calc(100vw - 400px);
+    justify-content: space-around;
 }
 .navbar_footer_text{
     margin: 5px 10px;
     font-size: 14px;
     font-weight:bold ;
+}
+.navbar_image{
+    background-image: url('https://ik.imagekit.io/clone1010/amazon-image/gaming-swm._CB430661085_.jpg?updatedAt=1727253485764');
+    height: 33px;
+    width: 400px;
+    display: flexbox;
+    background-repeat: no-repeat;
+    margin-left: auto;
 }
