@@ -22,7 +22,7 @@ class MainPage extends Component{
                     <AdvertisementFour/>
                     <AdvertisementOne></AdvertisementOne>
                     <AdvertisementFour/>
-                    <AdvertisementOne></AdvertisementOne>
+                    
                 </div>
             </div>
         );
