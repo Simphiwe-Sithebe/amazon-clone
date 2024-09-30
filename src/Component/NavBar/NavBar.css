@@ -1,6 +1,6 @@
 .navbar_component{
     /* 100% of total page */
-    width: 100vw;
+    width: 99vw;
     height: 70px;
     background-color: #131a22;
     display: flex;
@@ -109,7 +109,7 @@
     color: #F08805;
 }
 .navbar_footer{
-    width: 100vw;
+    width: 99vw;
     height: 36px;
     background-color: #22303E;
     color: white;

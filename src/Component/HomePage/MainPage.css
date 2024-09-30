@@ -1,9 +1,8 @@
 .mainpage{
-    width: 100vw;
-    height: 100vh;
+    width: 99vw;
+    height: auto;
     background-image: url('https://ik.imagekit.io/clone1010/amazon-image/bigimage1.jpg?updatedAt=1727253500231');
-    background-size: cover;
-    /* background-repeat: no-repeat; */
-
-
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #e9eeed;
 }

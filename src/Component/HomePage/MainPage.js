@@ -2,6 +2,8 @@
 //Lifecycle methods: Lifecycle methods are methods that get called at different points during a component's life. They are optional and can be used to execute code at specific points in the life of a component. They can be used to initialize state, fetch data from an API, set timers, or integrate with other libraries. There are three categories of lifecycle methods: Mounting, Updating, and Unmounting.
 import React, { Component } from 'react'
 import "./MainPage.css";
+import AdvertisementOne from './AdvertisementOne/AdvertisementOne';
+import AdvertisementFour from './AdvertisementFour/AdvertisementFour';
 class MainPage extends Component{
     constructor(props){
         super(props);
@@ -10,7 +12,18 @@ class MainPage extends Component{
     render(){
         return(
             <div className='mainpage'>
-                Main Page
+                
+                <div style={{paddingTop: "300px", display: "flex", flexWrap: "wrap", justifyContent: "space-around"}}>
+                    <AdvertisementOne></AdvertisementOne>
+                    <AdvertisementFour/>
+                    <AdvertisementOne></AdvertisementOne>
+                    <AdvertisementFour/>
+                    <AdvertisementOne></AdvertisementOne>
+                    <AdvertisementFour/>
+                    <AdvertisementOne></AdvertisementOne>
+                    <AdvertisementFour/>
+                    <AdvertisementOne></AdvertisementOne>
+                </div>
             </div>
         );
     }
