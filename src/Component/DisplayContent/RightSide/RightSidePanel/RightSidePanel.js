@@ -1,9 +1,12 @@
 import React from "react";
 import "./RightSide.css"
+import Products from "./Products";
 function RightSidePanel(props){
     return (
         <div className="RightSide_main">
-            Right Side
+            
+            <Products/>
+            <Products/>
         </div>
     );
 }
