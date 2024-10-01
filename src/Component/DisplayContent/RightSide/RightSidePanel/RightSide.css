@@ -1,11 +1,14 @@
 .RightSide_main{
     height: 100%;
-    width: 300px;
+    width: 80vw;
     display: flex;
-    padding: auto;
+    flex-wrap: wrap;
+    /* padding: auto; */
 }
 .product_main{
-    padding: 20px;
+    padding: 30px;
+    width: 140px;
+    margin: 30px;
 }
 .product_image{
 
