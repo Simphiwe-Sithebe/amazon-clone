@@ -1,0 +1,25 @@
+.placeorder_image{
+    height: 450px;
+    margin: 100px 150px;
+}
+.placeorder_details{
+    margin-top: 50px;
+}
+.textgap{
+    margin: 10px;
+
+}
+.pricetag{
+    font-size: 24px;
+    color: #812704;
+}
+
+.emi-info ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.emi-info li {
+    font-size: 14px;
+    color: #007600;
+}
