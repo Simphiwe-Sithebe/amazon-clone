@@ -1,13 +1,13 @@
 import React from 'react'
 import './PlaceOrder.css'
 import Grid from '@mui/material/Grid';
-import { Rating } from '@mui/material';
+import { Paper, Rating } from '@mui/material';
 
  function PlaceOrder(props) {
   return (
     <div>
       <Grid container>
-        <Grid item xs={6}>
+        <Grid item xs={5}>
             <img className='placeorder_image' src='https://ik.imagekit.io/clone1010/amazon-image/mobiles/71ZOtNdaZCL._AC_UL640_FMwebp_QL65_.webp?updatedAt=1727253498594'/>
         </Grid>
         <Grid item xs={4}>
@@ -47,8 +47,11 @@ import { Rating } from '@mui/material';
                 </div>
             </div>
         </Grid>
-        <Grid item xs={2}>
-            Order
+        <Grid item xs={3}>
+            <Paper varient="outlined" className='placeorder_order'  >
+                <button className='placeorder_button addtocart'>Add to Cart</button>
+                <button className='placeorder_button buynow'>Buy Now</button>
+            </Paper>
         </Grid>
       </Grid>
     </div>

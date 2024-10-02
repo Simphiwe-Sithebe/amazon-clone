@@ -1,6 +1,6 @@
 .placeorder_image{
     height: 450px;
-    margin: 100px 150px;
+    margin: 70px 130px;
 }
 .placeorder_details{
     margin-top: 50px;
@@ -22,4 +22,26 @@
 .emi-info li {
     font-size: 14px;
     color: #007600;
+}
+.placeorder_order{
+    margin-top: 150px;
+    width: 200px;
+    height: 300px;
+    margin-left: 40px;
+}
+.placeorder_button{
+    width: 180px;
+    height: 30px;
+    border-radius: 40px;
+    margin: 5px;
+    border: 0px;
+    color: white;
+}
+.addtocart{
+    margin-top: 150px;
+    background-color: #FFD712;
+}
+.buynow{
+    margin-top: 40px;
+    background-color: #FFD712;
 }
