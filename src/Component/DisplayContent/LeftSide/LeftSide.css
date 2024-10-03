@@ -1,4 +1,4 @@
-.LeftSize_main{
+/* .LeftSize_main{
     height: 100vh;
     width: 200px;
     border-right: 2px solid #DDDDDD;
@@ -14,4 +14,53 @@
 .brandname{
     display: block;
     width: 100px;
-}
+} */
+.LeftSide_main {
+    /* height: 100vh; */
+    width: 200px; /* Width of the left panel */
+    background-color: #f8f9fa; /* Light background color */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px; /* Slightly rounded corners */
+    padding: 20px; /* Internal spacing */
+    margin: 10px; /* External spacing */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    font-family: Arial, sans-serif; /* Font style */
+  }
+  
+  .leftSide_header {
+    font-size: 16px; /* Slightly larger font size for the header */
+    font-weight: 600; /* Bold text */
+    color: #343a40; /* Darker color for the header */
+    margin-bottom: 10px; /* Spacing below header */
+  }
+  
+  .leftside_brandList,
+  .leftside_priceRange,
+  .leftside_ratings,
+  .leftside_discount {
+    margin-bottom: 20px; /* Spacing between sections */
+  }
+  
+  .leftside_brandList label,
+  .leftside_priceRange label,
+  .leftside_ratings label,
+  .leftside_discount label {
+    display: block; /* Display each filter option in a new line */
+    padding: 5px 0; /* Vertical padding for better spacing */
+    cursor: pointer; /* Change cursor to pointer for clickable options */
+  }
+  
+  .leftside_brandList input,
+  .leftside_priceRange input,
+  .leftside_ratings input,
+  .leftside_discount input {
+    margin-right: 8px; /* Space between checkbox/radio and label */
+  }
+  
+  .leftside_brandList label:hover,
+  .leftside_priceRange label:hover,
+  .leftside_ratings label:hover,
+  .leftside_discount label:hover {
+    background-color: #f1f1f1; /* Slight background change on hover */
+  }
+  

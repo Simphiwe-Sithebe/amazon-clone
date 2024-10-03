@@ -4,6 +4,10 @@ import React, { Component } from 'react'
 import "./MainPage.css";
 import AdvertisementOne from './AdvertisementOne/AdvertisementOne';
 import AdvertisementFour from './AdvertisementFour/AdvertisementFour';
+import DealOfTheDay from './DealOfTheDay/DealOfTheDay';
+import CategoryPanel from './CategoryPanel/CategoryPanel';
+import BannerAd from './BannerAd/BannerAd';
+import TrendingProducts from './TrendingProducts/TrendingProducts';
 class MainPage extends Component{
     constructor(props){
         super(props);
@@ -15,13 +19,17 @@ class MainPage extends Component{
                 
                 <div style={{paddingTop: "300px", display: "flex", flexWrap: "wrap", justifyContent: "space-around"}}>
                     <AdvertisementOne></AdvertisementOne>
+                    <DealOfTheDay/>
                     <AdvertisementFour/>
-                    <AdvertisementOne></AdvertisementOne>
+                    <DealOfTheDay/>
+                    {/* <AdvertisementOne></AdvertisementOne>
                     <AdvertisementFour/>
-                    <AdvertisementOne></AdvertisementOne>
-                    <AdvertisementFour/>
-                    <AdvertisementOne></AdvertisementOne>
-                    <AdvertisementFour/>
+                    <DealOfTheDay/>
+                    {/* <CategoryPanel/> */}
+                    
+                    
+                    <BannerAd/>
+                    <TrendingProducts/>
                     
                 </div>
             </div>

@@ -1,0 +1,45 @@
+.CategoryPanel_main {
+    height: 380px;
+    width: 21vw;
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    /* display: flex; */
+  }
+  
+  .CategoryPanel_header {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 15px;
+  }
+  
+  .CategoryPanel_body {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+  }
+  
+  .category_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .category_image {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .category_image:hover {
+    transform: scale(1.1);
+  }
+  
+  .category_item span {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
