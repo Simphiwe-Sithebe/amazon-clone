@@ -1,8 +1,14 @@
 .mainpage{
-    width: 99vw;
+    width: 100vw;
     height: auto;
     background-image: url('https://ik.imagekit.io/clone1010/amazon-image/bigimage1.jpg?updatedAt=1727253500231');
     background-size: contain;
     background-repeat: no-repeat;
     background-color: #e9eeed;
+}
+.cat_div{
+    width: 99vw;
+    padding-bottom: 60px;
+    padding-left: 80px;
+    /* align-self: center; */
 }

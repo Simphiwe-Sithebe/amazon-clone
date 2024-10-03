@@ -18,18 +18,21 @@ class MainPage extends Component{
             <div className='mainpage'>
                 
                 <div style={{paddingTop: "300px", display: "flex", flexWrap: "wrap", justifyContent: "space-around"}}>
+                    
+                    <div className='cat_div'>
+                    <CategoryPanel/>
+                    </div>
                     <AdvertisementOne></AdvertisementOne>
                     <DealOfTheDay/>
                     <AdvertisementFour/>
-                    <DealOfTheDay/>
-                    {/* <AdvertisementOne></AdvertisementOne>
-                    <AdvertisementFour/>
-                    <DealOfTheDay/>
-                    {/* <CategoryPanel/> */}
+                    <DealOfTheDay/> 
+                   
+                     
                     
                     
                     <BannerAd/>
-                    <TrendingProducts/>
+                    <TrendingProducts/> 
+                    {/* <CategoryPanel/> */}
                     
                 </div>
             </div>

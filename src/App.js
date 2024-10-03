@@ -9,7 +9,7 @@ import Checkout from './Component/Checkout/Checkout';
 function App() {
   return (
     <div className="App">
-      <NavBar/>
+      <NavBar/> 
       <MainPage/>
       <DisplayContent/>
       <PlaceOrder/>
