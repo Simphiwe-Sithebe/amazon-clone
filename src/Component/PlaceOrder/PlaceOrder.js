@@ -48,10 +48,25 @@ import { Paper, Rating } from '@mui/material';
             </div>
         </Grid>
         <Grid item xs={3}>
-            <Paper varient="outlined" className='placeorder_order'  >
-                <button className='placeorder_button addtocart'>Add to Cart</button>
-                <button className='placeorder_button buynow'>Buy Now</button>
-            </Paper>
+        <Paper variant="outlined" className="placeorder__order">
+                        <div>
+                            <div><strong>Without Exchange</strong></div>
+                            <div>50,999</div>
+                            <div style={{ marginTop: "10px"}}><strong>Add an Accessory</strong></div>
+                            <div>
+                                <label><input type="checkbox" ></input>Apple Airpods</label><br></br>
+                                <label><input type="checkbox" ></input>Apple 20W USB Power Adapter</label>
+                            </div>
+                            <div > 
+                                
+                                <button className="placeorder__button addtocart" >Add to Cart</button>
+                                
+                                
+                                    <button className="placeorder__button buynow">Buy Now</button>
+                                
+                            </div>
+                        </div>
+                    </Paper>
         </Grid>
       </Grid>
     </div>
