@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 //class component "ccc" for short cut
 import "./NavBar.css"
 //adds the css file to this component so changes will be apparent
+import { Link } from "react-router-dom";
 class NavBar extends Component {
     constructor(props) {
         super(props);
@@ -12,7 +13,9 @@ class NavBar extends Component {
         return ( 
             <div>
             <div className="navbar_component">
+                <Link style={{textDecoration: "none", color:"white"}} to={"/"}>
                 <div className='navbar_logo'> </div>
+                </Link>
                 <div className='navbar_locator'>
                     <div className='navbar_locatorImage'></div>
                     <div className='navbar_location'><b>South Africa</b></div>
@@ -53,7 +56,9 @@ class NavBar extends Component {
                 <div className='navbar_footer'>
                     <div className='navbar_footer_text_container'>
                     <div className='navbar_footer_text'>Best Seller</div>
+                        <Link style={{textDecoration: "none", color:"white"}} to={"/display"}>
                         <div className='navbar_footer_text'>Mobile</div>
+                        </Link>
                         <div className='navbar_footer_text'>Amazon Pay</div>
                         <div className='navbar_footer_text'>Fashion</div>
                         <div className='navbar_footer_text'>Electronics</div>
